@@ -36,8 +36,27 @@ footer {
     margin-left: 50px;
 }
 
+.listaContatos {
+    margin-left: 70px; 
+    margin-bottom: 20px;
+    
+}
+.listaContatos a {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
 
-
+.servicos {
+    margin-left: 50px;
+}
+img.displayed {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 
 /* Css para o menu */
