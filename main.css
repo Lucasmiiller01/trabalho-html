@@ -1,0 +1,76 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body { 
+    height:100%; 
+    overflow-y:hidden;
+}
+
+
+header {
+    margin-bottom: 50px;
+}
+
+.titleHeader {
+    left: 90% !important;
+    color: #FFD700;
+    z-index: 2;
+}
+
+
+/* Rodapé fixo no final */
+footer {
+    background: grey;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.titleRodape {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* Css para o menu */
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#483D8B;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+  background-color: #0000CD;
+}
+
+.menu .active {
+  background-color: #4B0082;
+}
+
+
